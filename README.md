@@ -18,7 +18,9 @@ And please install libs:
 HOW TO COMPILE
 ------------
 cd ../Lib1
+
 javac -sourcepath src -d bin -classpath lib/commons-codec-1.8.jar src/Main.java
+
 jar cvfm Main.jar manifest.md -C bin .
 
 HOW TO USE
